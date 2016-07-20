@@ -1,2 +1,3 @@
 http://www.example.com/blog/2016/07/20/hello-world/
+http://www.example.com/Resume.html
 http://www.example.com/About.html

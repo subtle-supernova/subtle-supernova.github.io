@@ -1,5 +1,27 @@
 /* custom.css */
 
+a {
+  color: orange;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover
+.nav-pills>li.active>a:focus {
+  color: white;
+  background-color: orange;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+  color: white;
+  background-color: darkorange;
+}
+
+a:hover, a:focus {
+  color: black;
+}
+
 code {
     color: black;
 }
