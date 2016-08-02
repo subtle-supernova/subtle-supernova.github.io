@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">Sullivan. Jeremy Sullivan. : Sullivan. Jeremy Sullivan. </title>
- <link rel="self" href="http://www.example.com/feeds/all.atom.xml" />
- <link href="http://www.example.com/index.html" />
- <id>urn:http-www-example-com:-index-html</id>
- <updated>2016-08-02T00:02:31Z</updated>
- <entry>
-  <title type="text">Markdown to HTML to PDF - My Resume's Journey</title>
-  <link rel="alternate" href="http://www.example.com/blog/2016/08/02/markdown-to-html-to-pdf-my-resume-s-journey/?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2016-08-02-markdown-to-html-to-pdf-my-resume-s-journey</id>
-  <published>2016-08-02T00:02:31Z</published>
-  <updated>2016-08-02T00:02:31Z</updated>
-  <author>
-   <name>Jeremy Sullivan </name></author>
-  <content type="html">&lt;html&gt;
+<rss version="2.0">
+ <channel>
+  <title>Sullivan. Jeremy Sullivan. : Posts tagged 'pdf'</title>
+  <description>Sullivan. Jeremy Sullivan. : Posts tagged 'pdf'</description>
+  <link>http://www.example.com/tags/pdf.html</link>
+  <lastBuildDate>Tue, 02 Aug 2016 00:02:31 UT</lastBuildDate>
+  <pubDate>Tue, 02 Aug 2016 00:02:31 UT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>Markdown to HTML to PDF - My Resume's Journey</title>
+   <link>http://www.example.com/blog/2016/08/02/markdown-to-html-to-pdf-my-resume-s-journey/?utm_source=pdf&amp;utm_medium=RSS</link>
+   <guid>urn:http-www-example-com:-blog-2016-08-02-markdown-to-html-to-pdf-my-resume-s-journey</guid>
+   <pubDate>Tue, 02 Aug 2016 00:02:31 UT</pubDate>
+   <description>&lt;html&gt;
 &lt;p&gt;&lt;em&gt;Replace this with your post text. Add one or more comma-separated Tags above. The special tag &lt;code&gt;DRAFT&lt;/code&gt; will prevent the post from being published.&lt;/em&gt;&lt;/p&gt;
 
 &lt;h1 id="how-my-resume-starts-out-as-markdown"&gt;How my resume starts out as markdown&lt;/h1&gt;
@@ -31,21 +30,4 @@
 &lt;h2 id="whats-next"&gt;What&amp;rsquo;s next?&lt;/h2&gt;
 
 &lt;p&gt;For my resume, I&amp;rsquo;d like to do some intermediate processing. While wkhtmltopdf supports pulling from a URL directly (which is pretty sweet) we can also use local files. I&amp;rsquo;ll need to remove some  things like navigation and then add some things like more contact information. I think it&amp;rsquo;d be a really cool project to let someone enter an email address and recieve the processed resume.  Well, I&amp;rsquo;ve beel looking for a reason to dive into the wide and strange world of OCaml webapps. More on that later, perhaps!&lt;/p&gt;
-&lt;!-- more--&gt;&lt;/html&gt;</content></entry>
- <entry>
-  <title type="text">Hello world</title>
-  <link rel="alternate" href="http://www.example.com/blog/2016/07/20/hello-world/?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2016-07-20-hello-world</id>
-  <published>2016-07-20T20:53:54Z</published>
-  <updated>2016-07-20T20:53:54Z</updated>
-  <author>
-   <name>Jeremy Sullivan </name></author>
-  <content type="html">&lt;html&gt;
-&lt;h1 id="hello-world"&gt;Hello, world!&lt;/h1&gt;
-
-&lt;p&gt;Static content generators have been sort of a fad lately. I&amp;rsquo;ve used them in the past to generate all sorts of  documentation and marketing pages for various jobs. In those days, I&amp;rsquo;d always use &lt;a href="https://jekyllrb.com/"&gt;Jekyll&lt;/a&gt; or  more recently, &lt;a href="http://cryogenweb.org/"&gt;Cryogen&lt;/a&gt;. Jekyll always had a huge community behind it which made finding  themes or plugins a breeze, and let&amp;rsquo;s face it if you&amp;rsquo;re using a static content generator you&amp;rsquo;re not looking to spend  a lot of time on it. Cryogen was chosen because the ecosystem already had a large number of clojure web projects in it already,  so using lein and the JRE was a big win.&lt;/p&gt;
-&lt;!-- more--&gt;
-
-&lt;p&gt;This time, I&amp;rsquo;ve decided to go with &lt;a href="https://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt; because I really love lisp and I don&amp;rsquo;t get to  interact with the racket community very often. I seriously considered &lt;a href="http://zoggy.github.io/stog/"&gt;Stog&lt;/a&gt; because of my equal love  of OCaml, but I just can&amp;rsquo;t stand XML.&lt;/p&gt;
-
-&lt;p&gt;So here it is, my blog. Hopefully you&amp;rsquo;ll find it usefull.&lt;/p&gt;&lt;/html&gt;</content></entry></feed>
+&lt;!-- more--&gt;&lt;/html&gt;</description></item></channel></rss>
