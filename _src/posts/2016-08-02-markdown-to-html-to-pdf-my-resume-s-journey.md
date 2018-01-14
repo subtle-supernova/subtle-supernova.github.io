@@ -2,10 +2,6 @@
     Date: 2016-08-02T00:02:31
     Tags: wkhtmltopdf, html, pdf, markdown
 
-_Replace this with your post text. Add one or more comma-separated
-Tags above. The special tag `DRAFT` will prevent the post from being
-published._
-
 # How my resume starts out as markdown
 
 ## Why would you do this?

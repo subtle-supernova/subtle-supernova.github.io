@@ -1,4 +1,5 @@
 https://subtle-supernova.github.io/blog/2016/07/20/hello-world
 https://subtle-supernova.github.io/blog/2016/08/02/markdown-to-html-to-pdf-my-resume-s-journey
+https://subtle-supernova.github.io/blog/2018/01/14/adventures-in-nim-ffi
 https://subtle-supernova.github.io/Resume.html
 https://subtle-supernova.github.io/About.html

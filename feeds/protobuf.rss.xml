@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss version="2.0">
  <channel>
-  <title>Sullivan. Jeremy Sullivan. : Sullivan. Jeremy Sullivan. </title>
-  <description>Sullivan. Jeremy Sullivan. : Sullivan. Jeremy Sullivan. </description>
-  <link>https://subtle-supernova.github.io/index.html</link>
+  <title>Sullivan. Jeremy Sullivan. : Posts tagged 'protobuf'</title>
+  <description>Sullivan. Jeremy Sullivan. : Posts tagged 'protobuf'</description>
+  <link>https://subtle-supernova.github.io/tags/protobuf.html</link>
   <lastBuildDate>Sun, 14 Jan 2018 21:37:34 UT</lastBuildDate>
   <pubDate>Sun, 14 Jan 2018 21:37:34 UT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>Adventures in NIM FFI</title>
-   <link>https://subtle-supernova.github.io/blog/2018/01/14/adventures-in-nim-ffi?utm_source=all&amp;utm_medium=RSS</link>
+   <link>https://subtle-supernova.github.io/blog/2018/01/14/adventures-in-nim-ffi?utm_source=protobuf&amp;utm_medium=RSS</link>
    <guid isPermaLink="false">urn:https-subtle-supernova-github-io:-blog-2018-01-14-adventures-in-nim-ffi</guid>
    <pubDate>Sun, 14 Jan 2018 21:37:34 UT</pubDate>
    <author>Jeremy Sullivan </author>
@@ -223,42 +223,4 @@
 
 &lt;h3 id="conclusion"&gt;Conclusion&lt;/h3&gt;
 
-&lt;p&gt;This has certainly been a fun adventure. I definitely think nim has a solid place in the world. I&amp;rsquo;m not even sure it&amp;rsquo;s that niche, to be honest. There&amp;rsquo;s a lot of C code out there that can&amp;rsquo;t just be turned into a python module. There&amp;rsquo;s also a lot of python code out there that could stand  to have some non performant loops put into C. Nim enables all of those things without any C expertise or memory management and not just with python, but any dynamic language. I&amp;rsquo;m also really impressed with the tooling given how young the language is. Editor support has been pretty great and the &lt;code&gt;nimble&lt;/code&gt; package manager is well on its way to getting the job done.&lt;/p&gt;</description></item>
-  <item>
-   <title>Markdown to HTML to PDF - My Resume's Journey</title>
-   <link>https://subtle-supernova.github.io/blog/2016/08/02/markdown-to-html-to-pdf-my-resume-s-journey?utm_source=all&amp;utm_medium=RSS</link>
-   <guid isPermaLink="false">urn:https-subtle-supernova-github-io:-blog-2016-08-02-markdown-to-html-to-pdf-my-resume-s-journey</guid>
-   <pubDate>Tue, 02 Aug 2016 00:02:31 UT</pubDate>
-   <author>Jeremy Sullivan </author>
-   <description>
-&lt;h1 id="how-my-resume-starts-out-as-markdown"&gt;How my resume starts out as markdown&lt;/h1&gt;
-
-&lt;h2 id="why-would-you-do-this"&gt;Why would you do this?&lt;/h2&gt;
-
-&lt;p&gt;Other than my typical reason of &amp;ldquo;because it&amp;rsquo;s fun?&amp;rdquo; Document formats are really hard. Not only are they hard, but they&amp;rsquo;re one of the few things in computing we haven&amp;rsquo;t managed to simplify. Sure, we&amp;rsquo;ve made them &lt;em&gt;featureful&lt;/em&gt; but not &lt;em&gt;simple&lt;/em&gt;. Have you ever tried to parse an excel file in a meaningful way? It&amp;rsquo;s not fun.&lt;/p&gt;
-
-&lt;p&gt;This brings me to my particular problem: I only want to type my resume once, but I wan&amp;rsquo;t it to be as accessable as possible. I love the idea of typing it in markdown.  I believe markdown to be a sort of mad genius in the same vein as JSON. It only solves about 80% of our problems but it&amp;rsquo;s so easy that it makes it hard to resist.  Another really great thing about this simplicity is that we can hack on the other 20% it doesn&amp;rsquo;t solve without too much effort.&lt;/p&gt;
-
-&lt;h2 id="how-do-i-do-this"&gt;How do I do this?&lt;/h2&gt;
-
-&lt;p&gt;Well, I&amp;rsquo;ve already written about my static content generator. Markdown to HTML isn&amp;rsquo;t exactly exciting. HTML to PDF, however, is barrels of fun.  To accomplish this I use &lt;a href="http://wkhtmltopdf.org/"&gt;wkhtmltopdf&lt;/a&gt;. It&amp;rsquo;s a wonderful project that leverages webkit and QT. The coolest part of this tool? You can do it all from CLI. This has saved my neck a couple of times, because generating PDFs is a pain, but people &lt;em&gt;love&lt;/em&gt; them. On the flip side, generating HTML is a well explored and decently solved problem.  That creates a grand solution for us: generate semi-dynamic HTML, and then have some automated process spit out a PDF using wkhtmltopdf. Since it&amp;rsquo;s all in the CLI, you can do this using a simple  bash script and then leverage arcane things such as the &lt;code&gt;mail&lt;/code&gt; command for delivery. I love simple things.&lt;/p&gt;
-
-&lt;h2 id="whats-next"&gt;What&amp;rsquo;s next?&lt;/h2&gt;
-
-&lt;p&gt;For my resume, I&amp;rsquo;d like to do some intermediate processing. While wkhtmltopdf supports pulling from a URL directly (which is pretty sweet) we can also use local files. I&amp;rsquo;ll need to remove some  things like navigation and then add some things like more contact information. I think it&amp;rsquo;d be a really cool project to let someone enter an email address and recieve the processed resume.  Well, I&amp;rsquo;ve beel looking for a reason to dive into the wide and strange world of OCaml webapps. More on that later, perhaps!&lt;/p&gt;
-&lt;!-- more--&gt;</description></item>
-  <item>
-   <title>Hello world</title>
-   <link>https://subtle-supernova.github.io/blog/2016/07/20/hello-world?utm_source=all&amp;utm_medium=RSS</link>
-   <guid isPermaLink="false">urn:https-subtle-supernova-github-io:-blog-2016-07-20-hello-world</guid>
-   <pubDate>Wed, 20 Jul 2016 20:53:54 UT</pubDate>
-   <author>Jeremy Sullivan </author>
-   <description>
-&lt;h1 id="hello-world"&gt;Hello, world!&lt;/h1&gt;
-
-&lt;p&gt;Static content generators have been sort of a fad lately. I&amp;rsquo;ve used them in the past to generate all sorts of  documentation and marketing pages for various jobs. In those days, I&amp;rsquo;d always use &lt;a href="https://jekyllrb.com/"&gt;Jekyll&lt;/a&gt; or  more recently, &lt;a href="http://cryogenweb.org/"&gt;Cryogen&lt;/a&gt;. Jekyll always had a huge community behind it which made finding  themes or plugins a breeze, and let&amp;rsquo;s face it if you&amp;rsquo;re using a static content generator you&amp;rsquo;re not looking to spend  a lot of time on it. Cryogen was chosen because the ecosystem already had a large number of clojure web projects in it already,  so using lein and the JRE was a big win.&lt;/p&gt;
-&lt;!-- more--&gt;
-
-&lt;p&gt;This time, I&amp;rsquo;ve decided to go with &lt;a href="https://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt; because I really love lisp and I don&amp;rsquo;t get to  interact with the racket community very often. I seriously considered &lt;a href="http://zoggy.github.io/stog/"&gt;Stog&lt;/a&gt; because of my equal love  of OCaml, but I just can&amp;rsquo;t stand XML.&lt;/p&gt;
-
-&lt;p&gt;So here it is, my blog. Hopefully you&amp;rsquo;ll find it usefull.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;This has certainly been a fun adventure. I definitely think nim has a solid place in the world. I&amp;rsquo;m not even sure it&amp;rsquo;s that niche, to be honest. There&amp;rsquo;s a lot of C code out there that can&amp;rsquo;t just be turned into a python module. There&amp;rsquo;s also a lot of python code out there that could stand  to have some non performant loops put into C. Nim enables all of those things without any C expertise or memory management and not just with python, but any dynamic language. I&amp;rsquo;m also really impressed with the tooling given how young the language is. Editor support has been pretty great and the &lt;code&gt;nimble&lt;/code&gt; package manager is well on its way to getting the job done.&lt;/p&gt;</description></item></channel></rss>

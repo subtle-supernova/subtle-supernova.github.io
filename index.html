@@ -6,7 +6,7 @@
     <title>Sullivan. Jeremy Sullivan. </title>
     <meta name="description" content="Sullivan. Jeremy Sullivan. ">
     <meta name="author"      content="Jeremy Sullivan ">
-    <meta name="keywords"    content="frog, ocaml, stog, crygen, lisp, markdown, jekyll, all, hello, html, wkhtmltopdf, pdf, clojure">
+    <meta name="keywords"    content="jekyll, frog, stog, html, crygen, gRPC, ffi, lisp, c++, markdown, protobuf, all, hello, nim, wkhtmltopdf, pdf, clojure, ocaml">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
     <link rel="canonical" href="https://subtle-supernova.github.io/index.html">
@@ -61,11 +61,17 @@
               <ul class="dropdown-menu">
                 <li><a href="/index.html">All Posts</a></li>
 
+<li><a href="/tags/c.html">c++</a></li>
+
 <li><a href="/tags/clojure.html">clojure</a></li>
 
 <li><a href="/tags/crygen.html">crygen</a></li>
 
+<li><a href="/tags/ffi.html">ffi</a></li>
+
 <li><a href="/tags/frog.html">frog</a></li>
+
+<li><a href="/tags/gRPC.html">gRPC</a></li>
 
 <li><a href="/tags/hello.html">hello</a></li>
 
@@ -77,9 +83,13 @@
 
 <li><a href="/tags/markdown.html">markdown</a></li>
 
+<li><a href="/tags/nim.html">nim</a></li>
+
 <li><a href="/tags/ocaml.html">ocaml</a></li>
 
 <li><a href="/tags/pdf.html">pdf</a></li>
+
+<li><a href="/tags/protobuf.html">protobuf</a></li>
 
 <li><a href="/tags/stog.html">stog</a></li>
 
@@ -128,12 +138,24 @@
 
           <article>
   <header>
+    <h2><a href='/blog/2018/01/14/adventures-in-nim-ffi'>Adventures in NIM FFI</a></h2>
+    <p class='date-and-tags'>
+<time datetime="2018-01-14" pubdate="true">2018-01-14</time> :: <span class="tags"><a href="/tags/nim.html">nim</a>, <a href="/tags/c.html">c++</a>, <a href="/tags/gRPC.html">gRPC</a>, <a href="/tags/protobuf.html">protobuf</a>, <a href="/tags/ffi.html">ffi</a></span></p>
+  </header>
+
+<p>I&rsquo;ve recently dipped a toe into the <a href="https://nim-lang.org/">nim</a> programming language. The things that interest me the most are the fact that it compiles to C and FFI with C++. I&rsquo;ve been interested in FFI with C++ lately because <a href="https://grpc.io/">gRPC</a> is pretty wonderful to use but its language support is sort of limited. One language that&rsquo;s really well supported, however, is C++. While not apposed to writing C++, I think if there is an alternative, you should seek it out.</p>
+
+<p>I decided to first experiment with embedding nim into C++ rather than calling C++ from nim. This is definitely the less documented approach, so I would recommend it. But here are some of my findings.</p>
+  <footer>
+    <a href='/blog/2018/01/14/adventures-in-nim-ffi'>&hellip; more &hellip;</a>
+  </footer>
+</article>
+<article>
+  <header>
     <h2><a href='/blog/2016/08/02/markdown-to-html-to-pdf-my-resume-s-journey'>Markdown to HTML to PDF - My Resume&rsquo;s Journey</a></h2>
     <p class='date-and-tags'>
 <time datetime="2016-08-02" pubdate="true">2016-08-02</time> :: <span class="tags"><a href="/tags/wkhtmltopdf.html">wkhtmltopdf</a>, <a href="/tags/html.html">html</a>, <a href="/tags/pdf.html">pdf</a>, <a href="/tags/markdown.html">markdown</a></span></p>
   </header>
-
-<p><em>Replace this with your post text. Add one or more comma-separated Tags above. The special tag <code>DRAFT</code> will prevent the post from being published.</em></p>
 
 <h1 id="how-my-resume-starts-out-as-markdown">How my resume starts out as markdown</h1>
 
