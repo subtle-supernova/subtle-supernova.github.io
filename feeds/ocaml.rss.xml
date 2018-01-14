@@ -3,16 +3,17 @@
  <channel>
   <title>Sullivan. Jeremy Sullivan. : Posts tagged 'ocaml'</title>
   <description>Sullivan. Jeremy Sullivan. : Posts tagged 'ocaml'</description>
-  <link>http://www.example.com/tags/ocaml.html</link>
+  <link>https://subtle-supernova.github.io/tags/ocaml.html</link>
   <lastBuildDate>Wed, 20 Jul 2016 20:53:54 UT</lastBuildDate>
   <pubDate>Wed, 20 Jul 2016 20:53:54 UT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>Hello world</title>
-   <link>http://www.example.com/blog/2016/07/20/hello-world/?utm_source=ocaml&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2016-07-20-hello-world</guid>
+   <link>https://subtle-supernova.github.io/blog/2016/07/20/hello-world?utm_source=ocaml&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-subtle-supernova-github-io:-blog-2016-07-20-hello-world</guid>
    <pubDate>Wed, 20 Jul 2016 20:53:54 UT</pubDate>
-   <description>&lt;html&gt;
+   <author>Jeremy Sullivan </author>
+   <description>
 &lt;h1 id="hello-world"&gt;Hello, world!&lt;/h1&gt;
 
 &lt;p&gt;Static content generators have been sort of a fad lately. I&amp;rsquo;ve used them in the past to generate all sorts of  documentation and marketing pages for various jobs. In those days, I&amp;rsquo;d always use &lt;a href="https://jekyllrb.com/"&gt;Jekyll&lt;/a&gt; or  more recently, &lt;a href="http://cryogenweb.org/"&gt;Cryogen&lt;/a&gt;. Jekyll always had a huge community behind it which made finding  themes or plugins a breeze, and let&amp;rsquo;s face it if you&amp;rsquo;re using a static content generator you&amp;rsquo;re not looking to spend  a lot of time on it. Cryogen was chosen because the ecosystem already had a large number of clojure web projects in it already,  so using lein and the JRE was a big win.&lt;/p&gt;
@@ -20,4 +21,4 @@
 
 &lt;p&gt;This time, I&amp;rsquo;ve decided to go with &lt;a href="https://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt; because I really love lisp and I don&amp;rsquo;t get to  interact with the racket community very often. I seriously considered &lt;a href="http://zoggy.github.io/stog/"&gt;Stog&lt;/a&gt; because of my equal love  of OCaml, but I just can&amp;rsquo;t stand XML.&lt;/p&gt;
 
-&lt;p&gt;So here it is, my blog. Hopefully you&amp;rsquo;ll find it usefull.&lt;/p&gt;&lt;/html&gt;</description></item></channel></rss>
+&lt;p&gt;So here it is, my blog. Hopefully you&amp;rsquo;ll find it usefull.&lt;/p&gt;</description></item></channel></rss>

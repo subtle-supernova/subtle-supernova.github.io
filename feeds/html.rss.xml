@@ -3,16 +3,17 @@
  <channel>
   <title>Sullivan. Jeremy Sullivan. : Posts tagged 'html'</title>
   <description>Sullivan. Jeremy Sullivan. : Posts tagged 'html'</description>
-  <link>http://www.example.com/tags/html.html</link>
+  <link>https://subtle-supernova.github.io/tags/html.html</link>
   <lastBuildDate>Tue, 02 Aug 2016 00:02:31 UT</lastBuildDate>
   <pubDate>Tue, 02 Aug 2016 00:02:31 UT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>Markdown to HTML to PDF - My Resume's Journey</title>
-   <link>http://www.example.com/blog/2016/08/02/markdown-to-html-to-pdf-my-resume-s-journey/?utm_source=html&amp;utm_medium=RSS</link>
-   <guid>urn:http-www-example-com:-blog-2016-08-02-markdown-to-html-to-pdf-my-resume-s-journey</guid>
+   <link>https://subtle-supernova.github.io/blog/2016/08/02/markdown-to-html-to-pdf-my-resume-s-journey?utm_source=html&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-subtle-supernova-github-io:-blog-2016-08-02-markdown-to-html-to-pdf-my-resume-s-journey</guid>
    <pubDate>Tue, 02 Aug 2016 00:02:31 UT</pubDate>
-   <description>&lt;html&gt;
+   <author>Jeremy Sullivan </author>
+   <description>
 &lt;p&gt;&lt;em&gt;Replace this with your post text. Add one or more comma-separated Tags above. The special tag &lt;code&gt;DRAFT&lt;/code&gt; will prevent the post from being published.&lt;/em&gt;&lt;/p&gt;
 
 &lt;h1 id="how-my-resume-starts-out-as-markdown"&gt;How my resume starts out as markdown&lt;/h1&gt;
@@ -30,4 +31,4 @@
 &lt;h2 id="whats-next"&gt;What&amp;rsquo;s next?&lt;/h2&gt;
 
 &lt;p&gt;For my resume, I&amp;rsquo;d like to do some intermediate processing. While wkhtmltopdf supports pulling from a URL directly (which is pretty sweet) we can also use local files. I&amp;rsquo;ll need to remove some  things like navigation and then add some things like more contact information. I think it&amp;rsquo;d be a really cool project to let someone enter an email address and recieve the processed resume.  Well, I&amp;rsquo;ve beel looking for a reason to dive into the wide and strange world of OCaml webapps. More on that later, perhaps!&lt;/p&gt;
-&lt;!-- more--&gt;&lt;/html&gt;</description></item></channel></rss>
+&lt;!-- more--&gt;</description></item></channel></rss>

@@ -8,7 +8,7 @@ I am a senior software developer with a passion for both learning and writing so
 
 ## Experience
 
-**Senior Backend Developer, Chromatic.fm**
+**Senior Backend Developer, Chromatic.fm**  
 Denver, Colorado - 2016 - present
 
 Acted as the sole backend developer for chromatic.fm, music streaming app.
@@ -71,10 +71,10 @@ I have a deep love for LISPs and ML languages. I write a lot of OCaml and Clojur
 
 I have a huge passion programming languages. Design, compilers, syntax - I can never get enough. I’d be excited to chat with you about any language you don’t see explicitly listed here.
 
-**Leadership**
+**Leadership**  
 I’ve done everything from 2 to 11-man teams, from bug tracking to coaching and HR. I have a passion for sharing my knowledge with new developers, and I've been told I am an inspirational teacher. I pride myself in creating collaborative rather than competitive environments for software developers to thrive in.
 
-**Systems design** 
+**Systems design**  
 I’ve been in the unique position to design about 70% of the systems I’ve built. I bring a lot of experience to the table when designing a system from the ground up. The other 30% of the time, I bring the ability to work on one piece of the system while keeping the whole stack in mind while I make decisions and write code.
 
 **System operations**  

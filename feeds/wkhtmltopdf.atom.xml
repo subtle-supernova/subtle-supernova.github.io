@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
  <title type="text">Sullivan. Jeremy Sullivan. : Posts tagged 'wkhtmltopdf'</title>
- <link rel="self" href="http://www.example.com/feeds/wkhtmltopdf.atom.xml" />
- <link href="http://www.example.com/tags/wkhtmltopdf.html" />
- <id>urn:http-www-example-com:-tags-wkhtmltopdf-html</id>
+ <link rel="self" href="https://subtle-supernova.github.io/feeds/wkhtmltopdf.atom.xml" />
+ <link href="https://subtle-supernova.github.io/tags/wkhtmltopdf.html" />
+ <id>urn:https-subtle-supernova-github-io:-tags-wkhtmltopdf-html</id>
  <updated>2016-08-02T00:02:31Z</updated>
  <entry>
   <title type="text">Markdown to HTML to PDF - My Resume's Journey</title>
-  <link rel="alternate" href="http://www.example.com/blog/2016/08/02/markdown-to-html-to-pdf-my-resume-s-journey/?utm_source=wkhtmltopdf&amp;utm_medium=Atom" />
-  <id>urn:http-www-example-com:-blog-2016-08-02-markdown-to-html-to-pdf-my-resume-s-journey</id>
+  <link rel="alternate" href="https://subtle-supernova.github.io/blog/2016/08/02/markdown-to-html-to-pdf-my-resume-s-journey?utm_source=wkhtmltopdf&amp;utm_medium=Atom" />
+  <id>urn:https-subtle-supernova-github-io:-blog-2016-08-02-markdown-to-html-to-pdf-my-resume-s-journey</id>
   <published>2016-08-02T00:02:31Z</published>
   <updated>2016-08-02T00:02:31Z</updated>
   <author>
    <name>Jeremy Sullivan </name></author>
-  <content type="html">&lt;html&gt;
+  <content type="html">
 &lt;p&gt;&lt;em&gt;Replace this with your post text. Add one or more comma-separated Tags above. The special tag &lt;code&gt;DRAFT&lt;/code&gt; will prevent the post from being published.&lt;/em&gt;&lt;/p&gt;
 
 &lt;h1 id="how-my-resume-starts-out-as-markdown"&gt;How my resume starts out as markdown&lt;/h1&gt;
@@ -31,4 +31,4 @@
 &lt;h2 id="whats-next"&gt;What&amp;rsquo;s next?&lt;/h2&gt;
 
 &lt;p&gt;For my resume, I&amp;rsquo;d like to do some intermediate processing. While wkhtmltopdf supports pulling from a URL directly (which is pretty sweet) we can also use local files. I&amp;rsquo;ll need to remove some  things like navigation and then add some things like more contact information. I think it&amp;rsquo;d be a really cool project to let someone enter an email address and recieve the processed resume.  Well, I&amp;rsquo;ve beel looking for a reason to dive into the wide and strange world of OCaml webapps. More on that later, perhaps!&lt;/p&gt;
-&lt;!-- more--&gt;&lt;/html&gt;</content></entry></feed>
+&lt;!-- more--&gt;</content></entry></feed>

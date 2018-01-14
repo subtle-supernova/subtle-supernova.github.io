@@ -1,4 +1,4 @@
-http://www.example.com/blog/2016/08/02/markdown-to-html-to-pdf-my-resume-s-journey/
-http://www.example.com/blog/2016/07/20/hello-world/
-http://www.example.com/Resume.html
-http://www.example.com/About.html
+https://subtle-supernova.github.io/blog/2016/07/20/hello-world
+https://subtle-supernova.github.io/blog/2016/08/02/markdown-to-html-to-pdf-my-resume-s-journey
+https://subtle-supernova.github.io/Resume.html
+https://subtle-supernova.github.io/About.html
