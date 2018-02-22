@@ -9,7 +9,7 @@
 Other than my typical reason of "because it's fun?" Document formats are really hard. Not only are they hard, but they're one of the few things in computing we haven't managed to simplify.
 Sure, we've made them *featureful* but not *simple*. Have you ever tried to parse an excel file in a meaningful way? It's not fun.
 
-This brings me to my particular problem: I only want to type my resume once, but I wan't it to be as accessable as possible. I love the idea of typing it in markdown. 
+This brings me to my particular problem: I only want to type my resume once, but I want it to be as accessible as possible. I love the idea of typing it in markdown. 
 I believe markdown to be a sort of mad genius in the same vein as JSON. It only solves about 80% of our problems but it's so easy that it makes it hard to resist. 
 Another really great thing about this simplicity is that we can hack on the other 20% it doesn't solve without too much effort. 
 
@@ -24,7 +24,7 @@ bash script and then leverage arcane things such as the `mail` command for deliv
 ## What's next?
 
 For my resume, I'd like to do some intermediate processing. While wkhtmltopdf supports pulling from a URL directly (which is pretty sweet) we can also use local files. I'll need to remove some 
-things like navigation and then add some things like more contact information. I think it'd be a really cool project to let someone enter an email address and recieve the processed resume. 
+things like navigation and then add some things like more contact information. I think it'd be a really cool project to let someone enter an email address and receive the processed resume. 
 Well, I've beel looking for a reason to dive into the wide and strange world of OCaml webapps. More on that later, perhaps!
 
 <!-- more -->
