@@ -61,7 +61,7 @@
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 
-&lt;p&gt;First note that we call &lt;code&gt;nim cpp&lt;/code&gt;. I have to admit that I spent some time calling &lt;code&gt;nim c&lt;/code&gt; which I thought stood for &lt;code&gt;nim compile&lt;/code&gt; as the &lt;code&gt;nim&lt;/code&gt; command actually does a lot (like just generating C code instead of a binary, for example). What that actually means is compile &lt;em&gt;with&lt;/em&gt; C. When linking to C++ this is obvioulsy not what we want, but the issues that arise don&amp;rsquo;t exaclty point strait to that solution. Next, the &lt;code&gt;--noMain&lt;/code&gt; just means we don&amp;rsquo;t want an entry point. The &lt;code&gt;--noLinking&lt;/code&gt; means don&amp;rsquo;t call the linker, we&amp;rsquo;ll do that later and lastly &lt;code&gt;--header:fib.h&lt;/code&gt; is the name of the header we&amp;rsquo;re generating while &lt;code&gt;fib.nim&lt;/code&gt; is our file we want to compile.&lt;/p&gt;
+&lt;p&gt;First note that we call &lt;code&gt;nim cpp&lt;/code&gt;. I have to admit that I spent some time calling &lt;code&gt;nim c&lt;/code&gt; which I thought stood for &lt;code&gt;nim compile&lt;/code&gt; as the &lt;code&gt;nim&lt;/code&gt; command actually does a lot (like just generating C code instead of a binary, for example). What that actually means is compile &lt;em&gt;with&lt;/em&gt; C. When linking to C++ this is obviously not what we want, but the issues that arise don&amp;rsquo;t exaclty point strait to that solution. Next, the &lt;code&gt;--noMain&lt;/code&gt; just means we don&amp;rsquo;t want an entry point. The &lt;code&gt;--noLinking&lt;/code&gt; means don&amp;rsquo;t call the linker, we&amp;rsquo;ll do that later and lastly &lt;code&gt;--header:fib.h&lt;/code&gt; is the name of the header we&amp;rsquo;re generating while &lt;code&gt;fib.nim&lt;/code&gt; is our file we want to compile.&lt;/p&gt;
 
 &lt;h3 id="the-c-code"&gt;The C++ code&lt;/h3&gt;
 
@@ -223,7 +223,7 @@
 
 &lt;h3 id="conclusion"&gt;Conclusion&lt;/h3&gt;
 
-&lt;p&gt;This has certainly been a fun adventure. I definitely think nim has a solid place in the world. I&amp;rsquo;m not even sure it&amp;rsquo;s that niche, to be honest. There&amp;rsquo;s a lot of C code out there that can&amp;rsquo;t just be turned into a python module. There&amp;rsquo;s also a lot of python code out there that could stand  to have some non performant loops put into C. Nim enables all of those things without any C expertise or memory management and not just with python, but any dynamic language. I&amp;rsquo;m also really impressed with the tooling given how young the language is. Editor support has been pretty great and the &lt;code&gt;nimble&lt;/code&gt; package manager is well on its way to getting the job done.&lt;/p&gt;</description></item>
+&lt;p&gt;This has certainly been a fun adventure. I definitely think nim has a solid place in the world. I&amp;rsquo;m not even sure it&amp;rsquo;s that niche, to be honest. There&amp;rsquo;s a lot of C code out there that can&amp;rsquo;t just be turned into a python module. There&amp;rsquo;s also a lot of python code out there that could stand  to have some performance bound loops put into C. Nim enables all of those things without any C expertise or memory management and not just with python, but any dynamic language. I&amp;rsquo;m also really impressed with the tooling given how young the language is. Editor support has been pretty great and the &lt;code&gt;nimble&lt;/code&gt; package manager is well on its way to getting the job done.&lt;/p&gt;</description></item>
   <item>
    <title>Markdown to HTML to PDF - My Resume's Journey</title>
    <link>https://subtle-supernova.github.io/blog/2016/08/02/markdown-to-html-to-pdf-my-resume-s-journey?utm_source=all&amp;utm_medium=RSS</link>
@@ -237,7 +237,7 @@
 
 &lt;p&gt;Other than my typical reason of &amp;ldquo;because it&amp;rsquo;s fun?&amp;rdquo; Document formats are really hard. Not only are they hard, but they&amp;rsquo;re one of the few things in computing we haven&amp;rsquo;t managed to simplify. Sure, we&amp;rsquo;ve made them &lt;em&gt;featureful&lt;/em&gt; but not &lt;em&gt;simple&lt;/em&gt;. Have you ever tried to parse an excel file in a meaningful way? It&amp;rsquo;s not fun.&lt;/p&gt;
 
-&lt;p&gt;This brings me to my particular problem: I only want to type my resume once, but I wan&amp;rsquo;t it to be as accessable as possible. I love the idea of typing it in markdown.  I believe markdown to be a sort of mad genius in the same vein as JSON. It only solves about 80% of our problems but it&amp;rsquo;s so easy that it makes it hard to resist.  Another really great thing about this simplicity is that we can hack on the other 20% it doesn&amp;rsquo;t solve without too much effort.&lt;/p&gt;
+&lt;p&gt;This brings me to my particular problem: I only want to type my resume once, but I want it to be as accessible as possible. I love the idea of typing it in markdown.  I believe markdown to be a sort of mad genius in the same vein as JSON. It only solves about 80% of our problems but it&amp;rsquo;s so easy that it makes it hard to resist.  Another really great thing about this simplicity is that we can hack on the other 20% it doesn&amp;rsquo;t solve without too much effort.&lt;/p&gt;
 
 &lt;h2 id="how-do-i-do-this"&gt;How do I do this?&lt;/h2&gt;
 
@@ -245,7 +245,7 @@
 
 &lt;h2 id="whats-next"&gt;What&amp;rsquo;s next?&lt;/h2&gt;
 
-&lt;p&gt;For my resume, I&amp;rsquo;d like to do some intermediate processing. While wkhtmltopdf supports pulling from a URL directly (which is pretty sweet) we can also use local files. I&amp;rsquo;ll need to remove some  things like navigation and then add some things like more contact information. I think it&amp;rsquo;d be a really cool project to let someone enter an email address and recieve the processed resume.  Well, I&amp;rsquo;ve beel looking for a reason to dive into the wide and strange world of OCaml webapps. More on that later, perhaps!&lt;/p&gt;
+&lt;p&gt;For my resume, I&amp;rsquo;d like to do some intermediate processing. While wkhtmltopdf supports pulling from a URL directly (which is pretty sweet) we can also use local files. I&amp;rsquo;ll need to remove some  things like navigation and then add some things like more contact information. I think it&amp;rsquo;d be a really cool project to let someone enter an email address and receive the processed resume.  Well, I&amp;rsquo;ve beel looking for a reason to dive into the wide and strange world of OCaml webapps. More on that later, perhaps!&lt;/p&gt;
 &lt;!-- more--&gt;</description></item>
   <item>
    <title>Hello world</title>

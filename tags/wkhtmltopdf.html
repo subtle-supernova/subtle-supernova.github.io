@@ -35,31 +35,21 @@
     </script>
   </head>
   <body>
-    <!-- A standard Twitter Bootstrap nav bar -->
-    <!-- jk I blew that up. -->
-    <!-- header class="navbar navbar-default navbar-inverse"
-            role="banner">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button"
-                  class="navbar-toggle"
-                  data-toggle="collapse"
-                  data-target=".our-nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="/index.html" class="navbar-brand">Sullivan. Jeremy Sullivan.</a>
-        </div>
-        <div class="collapse navbar-collapse our-nav-collapse"
-             role="navigation">
-          <ul class="nav navbar-nav">
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
 
+            <li><li>
+                  <a href="/Resume.html">Resume</a>
+                </li> </li>
+            <li><li>
+                  <a href="/About.html">About</a>
+                </li> </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                Tags <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tags<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="/index.html">All Posts</a></li>
+                <li><a href="/index.html">All posts</a></li>
 
 <li><a href="/tags/c.html">c++</a></li>
 
@@ -96,25 +86,6 @@
 <li><a href="/tags/wkhtmltopdf.html">wkhtmltopdf</a></li>
               </ul>
             </li>
-            <li>
-              <a href="/About.html">About</a>
-            </li> 
-            <li><a href="/feeds/wkhtmltopdf.atom.xml">Atom</a></li>
-            <li><a href="/feeds/wkhtmltopdf.rss.xml">RSS</a></li>
-          </ul>
-        </div>
-      </div>
-    </header -->
-    <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li><li>
-                  <a href="/Resume.html">Resume</a>
-                </li> </li>
-            <li><li>
-                  <a href="/About.html">About</a>
-                </li> </li>
             <li><a href="/feeds/wkhtmltopdf.atom.xml"><i class="fa fa-rss-square" aria-hidden="true"></i></a></li>
             <li><a href="/feeds/wkhtmltopdf.rss.xml"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
           </ul>
@@ -148,7 +119,7 @@
 
 <p>Other than my typical reason of &ldquo;because it&rsquo;s fun?&rdquo; Document formats are really hard. Not only are they hard, but they&rsquo;re one of the few things in computing we haven&rsquo;t managed to simplify. Sure, we&rsquo;ve made them <em>featureful</em> but not <em>simple</em>. Have you ever tried to parse an excel file in a meaningful way? It&rsquo;s not fun.</p>
 
-<p>This brings me to my particular problem: I only want to type my resume once, but I wan&rsquo;t it to be as accessable as possible. I love the idea of typing it in markdown.  I believe markdown to be a sort of mad genius in the same vein as JSON. It only solves about 80% of our problems but it&rsquo;s so easy that it makes it hard to resist.  Another really great thing about this simplicity is that we can hack on the other 20% it doesn&rsquo;t solve without too much effort.</p>
+<p>This brings me to my particular problem: I only want to type my resume once, but I want it to be as accessible as possible. I love the idea of typing it in markdown.  I believe markdown to be a sort of mad genius in the same vein as JSON. It only solves about 80% of our problems but it&rsquo;s so easy that it makes it hard to resist.  Another really great thing about this simplicity is that we can hack on the other 20% it doesn&rsquo;t solve without too much effort.</p>
 
 <h2 id="how-do-i-do-this">How do I do this?</h2>
 
@@ -156,7 +127,7 @@
 
 <h2 id="whats-next">What&rsquo;s next?</h2>
 
-<p>For my resume, I&rsquo;d like to do some intermediate processing. While wkhtmltopdf supports pulling from a URL directly (which is pretty sweet) we can also use local files. I&rsquo;ll need to remove some  things like navigation and then add some things like more contact information. I think it&rsquo;d be a really cool project to let someone enter an email address and recieve the processed resume.  Well, I&rsquo;ve beel looking for a reason to dive into the wide and strange world of OCaml webapps. More on that later, perhaps!</p>
+<p>For my resume, I&rsquo;d like to do some intermediate processing. While wkhtmltopdf supports pulling from a URL directly (which is pretty sweet) we can also use local files. I&rsquo;ll need to remove some  things like navigation and then add some things like more contact information. I think it&rsquo;d be a really cool project to let someone enter an email address and receive the processed resume.  Well, I&rsquo;ve beel looking for a reason to dive into the wide and strange world of OCaml webapps. More on that later, perhaps!</p>
   <footer>
     <a href='/blog/2016/08/02/markdown-to-html-to-pdf-my-resume-s-journey'>&hellip; more &hellip;</a>
   </footer>

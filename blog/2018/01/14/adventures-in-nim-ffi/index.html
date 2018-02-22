@@ -35,31 +35,21 @@
     </script>
   </head>
   <body>
-    <!-- A standard Twitter Bootstrap nav bar -->
-    <!-- jk I blew that up. -->
-    <!-- header class="navbar navbar-default navbar-inverse"
-            role="banner">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button"
-                  class="navbar-toggle"
-                  data-toggle="collapse"
-                  data-target=".our-nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="/index.html" class="navbar-brand">Sullivan. Jeremy Sullivan.</a>
-        </div>
-        <div class="collapse navbar-collapse our-nav-collapse"
-             role="navigation">
-          <ul class="nav navbar-nav">
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
 
+            <li><li>
+                  <a href="/Resume.html">Resume</a>
+                </li> </li>
+            <li><li>
+                  <a href="/About.html">About</a>
+                </li> </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                Tags <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tags<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="/index.html">All Posts</a></li>
+                <li><a href="/index.html">All posts</a></li>
 
 <li><a href="/tags/c.html">c++</a></li>
 
@@ -96,25 +86,6 @@
 <li><a href="/tags/wkhtmltopdf.html">wkhtmltopdf</a></li>
               </ul>
             </li>
-            <li>
-              <a href="/About.html">About</a>
-            </li> 
-            <li><a href="/feeds/all.atom.xml">Atom</a></li>
-            <li><a href="/feeds/all.rss.xml">RSS</a></li>
-          </ul>
-        </div>
-      </div>
-    </header -->
-    <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li><li>
-                  <a href="/Resume.html">Resume</a>
-                </li> </li>
-            <li><li>
-                  <a href="/About.html">About</a>
-                </li> </li>
             <li><a href="/feeds/all.atom.xml"><i class="fa fa-rss-square" aria-hidden="true"></i></a></li>
             <li><a href="/feeds/all.rss.xml"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
           </ul>
@@ -189,7 +160,7 @@
 </td></tr></tbody></table>
 </div>
 
-<p>First note that we call <code>nim cpp</code>. I have to admit that I spent some time calling <code>nim c</code> which I thought stood for <code>nim compile</code> as the <code>nim</code> command actually does a lot (like just generating C code instead of a binary, for example). What that actually means is compile <em>with</em> C. When linking to C++ this is obvioulsy not what we want, but the issues that arise don&rsquo;t exaclty point strait to that solution. Next, the <code>--noMain</code> just means we don&rsquo;t want an entry point. The <code>--noLinking</code> means don&rsquo;t call the linker, we&rsquo;ll do that later and lastly <code>--header:fib.h</code> is the name of the header we&rsquo;re generating while <code>fib.nim</code> is our file we want to compile.</p>
+<p>First note that we call <code>nim cpp</code>. I have to admit that I spent some time calling <code>nim c</code> which I thought stood for <code>nim compile</code> as the <code>nim</code> command actually does a lot (like just generating C code instead of a binary, for example). What that actually means is compile <em>with</em> C. When linking to C++ this is obviously not what we want, but the issues that arise don&rsquo;t exaclty point strait to that solution. Next, the <code>--noMain</code> just means we don&rsquo;t want an entry point. The <code>--noLinking</code> means don&rsquo;t call the linker, we&rsquo;ll do that later and lastly <code>--header:fib.h</code> is the name of the header we&rsquo;re generating while <code>fib.nim</code> is our file we want to compile.</p>
 
 <h3 id="the-c-code">The C++ code</h3>
 
@@ -351,7 +322,7 @@
 
 <h3 id="conclusion">Conclusion</h3>
 
-<p>This has certainly been a fun adventure. I definitely think nim has a solid place in the world. I&rsquo;m not even sure it&rsquo;s that niche, to be honest. There&rsquo;s a lot of C code out there that can&rsquo;t just be turned into a python module. There&rsquo;s also a lot of python code out there that could stand  to have some non performant loops put into C. Nim enables all of those things without any C expertise or memory management and not just with python, but any dynamic language. I&rsquo;m also really impressed with the tooling given how young the language is. Editor support has been pretty great and the <code>nimble</code> package manager is well on its way to getting the job done.</p>
+<p>This has certainly been a fun adventure. I definitely think nim has a solid place in the world. I&rsquo;m not even sure it&rsquo;s that niche, to be honest. There&rsquo;s a lot of C code out there that can&rsquo;t just be turned into a python module. There&rsquo;s also a lot of python code out there that could stand  to have some performance bound loops put into C. Nim enables all of those things without any C expertise or memory management and not just with python, but any dynamic language. I&rsquo;m also really impressed with the tooling given how young the language is. Editor support has been pretty great and the <code>nimble</code> package manager is well on its way to getting the job done.</p>
   <footer>
     <script type="text/javascript">
       !function(d,s,id){

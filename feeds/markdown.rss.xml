@@ -20,7 +20,7 @@
 
 &lt;p&gt;Other than my typical reason of &amp;ldquo;because it&amp;rsquo;s fun?&amp;rdquo; Document formats are really hard. Not only are they hard, but they&amp;rsquo;re one of the few things in computing we haven&amp;rsquo;t managed to simplify. Sure, we&amp;rsquo;ve made them &lt;em&gt;featureful&lt;/em&gt; but not &lt;em&gt;simple&lt;/em&gt;. Have you ever tried to parse an excel file in a meaningful way? It&amp;rsquo;s not fun.&lt;/p&gt;
 
-&lt;p&gt;This brings me to my particular problem: I only want to type my resume once, but I wan&amp;rsquo;t it to be as accessable as possible. I love the idea of typing it in markdown.  I believe markdown to be a sort of mad genius in the same vein as JSON. It only solves about 80% of our problems but it&amp;rsquo;s so easy that it makes it hard to resist.  Another really great thing about this simplicity is that we can hack on the other 20% it doesn&amp;rsquo;t solve without too much effort.&lt;/p&gt;
+&lt;p&gt;This brings me to my particular problem: I only want to type my resume once, but I want it to be as accessible as possible. I love the idea of typing it in markdown.  I believe markdown to be a sort of mad genius in the same vein as JSON. It only solves about 80% of our problems but it&amp;rsquo;s so easy that it makes it hard to resist.  Another really great thing about this simplicity is that we can hack on the other 20% it doesn&amp;rsquo;t solve without too much effort.&lt;/p&gt;
 
 &lt;h2 id="how-do-i-do-this"&gt;How do I do this?&lt;/h2&gt;
 
@@ -28,5 +28,5 @@
 
 &lt;h2 id="whats-next"&gt;What&amp;rsquo;s next?&lt;/h2&gt;
 
-&lt;p&gt;For my resume, I&amp;rsquo;d like to do some intermediate processing. While wkhtmltopdf supports pulling from a URL directly (which is pretty sweet) we can also use local files. I&amp;rsquo;ll need to remove some  things like navigation and then add some things like more contact information. I think it&amp;rsquo;d be a really cool project to let someone enter an email address and recieve the processed resume.  Well, I&amp;rsquo;ve beel looking for a reason to dive into the wide and strange world of OCaml webapps. More on that later, perhaps!&lt;/p&gt;
+&lt;p&gt;For my resume, I&amp;rsquo;d like to do some intermediate processing. While wkhtmltopdf supports pulling from a URL directly (which is pretty sweet) we can also use local files. I&amp;rsquo;ll need to remove some  things like navigation and then add some things like more contact information. I think it&amp;rsquo;d be a really cool project to let someone enter an email address and receive the processed resume.  Well, I&amp;rsquo;ve beel looking for a reason to dive into the wide and strange world of OCaml webapps. More on that later, perhaps!&lt;/p&gt;
 &lt;!-- more--&gt;</description></item></channel></rss>
